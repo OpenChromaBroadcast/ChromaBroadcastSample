@@ -19,7 +19,7 @@ using namespace RzChromaBroadcastAPI;
 #endif
 
 typedef RZRESULT (*INIT)(RZAPPID app);
-typedef RZRESULT (*INITEX)(int index, std::string title);
+typedef RZRESULT (*INITEX)(int index, const char *title);
 typedef RZRESULT (*UNINIT)();
 typedef RZRESULT (*REGISTEREVENTNOTIFICATION)(RZEVENTNOTIFICATIONCALLBACK callback);
 typedef RZRESULT (*UNREGISTEREVENTNOTIFICATION)();
